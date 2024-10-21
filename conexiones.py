@@ -1,0 +1,66 @@
+# Definir las conexiones (aristas) entre estaciones (líneas del metro)
+aristas = [
+    #Linea 1
+    ('Urquinaona', 'Catalunya'),
+    ('Catalunya', 'Universitat'),
+    ('Universitat', 'Urgell'),
+    ('Urgell', 'Rocafort'),
+    ('Rocafort', 'Espanya'),
+    #Linea 2
+    ('Paral·lel', 'Sant antoni'),
+    ('Sant antoni', 'Universitat'),
+    ('Universitat', 'Passeig de gracia'),
+    ('Passeig de gracia', 'Tetuan'),
+    #Linea 3
+    ('Trinitat nova', 'Roquetes'), 
+    ('Roquetes', 'Canyelles'),
+    ('Canyelles', 'Valldaura'),
+    ('Valldaura', 'Mundet'),
+    ('Mundet', 'Montbau'),
+    ('Montbau', "Vall d'hebron"),
+    ("Vall d'hebron", "Penitents"),
+    ('Penitents', 'Vallcarca'),
+    ('Vallcarca', 'Lesseps'),
+    ('Lesseps', 'Fontana'),
+    ('Fontana', 'Diagonal'),
+    ('Diagonal', 'Passeig de gracia'),
+    ('Passeig de gracia', 'Catalunya'),
+    ('Catalunya', 'Liceu'),
+    ('Liceu', 'Drassanes'),
+    ('Drassanes', 'Paral·lel'),
+    ('Paral·lel', 'Poble sec'),
+    ('Poble sec', 'Espanya'),
+    ('Espanya', 'Tarragona'),
+    ('Tarragona', 'Sants'),
+    ('Sants', 'Plaça del centre'),
+    ('Plaça del centre', 'Les corts'),
+    ('Les corts', 'Maria cristina'),
+    ('Maria cristina', 'Palau reial'),
+    ('Palau reial', 'Zona universitaria'),
+    #Linea 4
+    ('Passeig de gracia', 'Urquinaona'),
+    #Linea 5
+    ('Sants', 'Entença'),
+    ('Entença', 'Hospital clinic'),
+    ('Hospital clinic', 'Diagonal'),
+    #Linea 6
+    ('Catalunya', 'Provenca'),
+    ('Provenca', 'Gracia'),    
+    ('Gracia', 'Sant Gervasi'),
+    ('Sant Gervasi', 'Muntaner'),
+    ('Muntaner', 'La Bonanova'),
+    ('La Bonanova', 'Les tres torres'),
+    ('Les tres torres', 'Sarria'),
+    #Linea 7
+    ('Gracia', 'Plaça Molina'),  
+    ('Plaça Molina', 'Padua'),    
+    ('Padua', 'El Putxet'),       
+    ('El Putxet', 'Tibidabo'),
+    #Linea 11
+    ('Trinitat nova', "Casa de l'aigua"),
+    ("Casa de l'aigua", 'Torre baró vallbona'),
+    ('Torre baró vallbona', 'Ciutat meridiana'),
+    ('Ciutat meridiana', 'Can cuias'),
+    #Linea 12
+    ('Sarria', 'Reina Elisenda'),
+]
