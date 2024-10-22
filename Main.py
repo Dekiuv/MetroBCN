@@ -13,8 +13,30 @@ G.add_nodes_from(es.estaciones)
 G.add_edges_from(co.aristas)
 
 # Pedir las estaciones de inicio y fin al usuario
-inicio =  input("Escriba punto de inicio...")
-destino = input("Escriba destino...")
+menu = True
+inicio_ = True
+destino_ = True
+
+while menu == True:
+    while inicio_ == True:
+        inicio =  input("Escriba punto de inicio...")
+        if inicio in es.estaciones:
+            print ("Estación encontrada")
+            inicio_ = False
+        else:
+            print("Estación no encontrada!")
+            inicio = True
+
+    while destino_ == True:
+        destino = input("Escriba destino...")
+        if destino in es.estaciones:
+            print ("Estación encontrada")
+            destino_ = False
+            menu = False
+        else:
+            print("Estación no encontrada!")
+            destino_ = True
+  
 
 # Obtener el camino más corto entre las dos estaciones
 ruta_mas_corta = nx.shortest_path(G, source=inicio, target=destino)
