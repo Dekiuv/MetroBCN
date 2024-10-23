@@ -48,5 +48,3 @@ plt.title(f'Ruta más rápida: {inicio} a {destino}', fontsize=14)
 plt.grid(False)
 plt.axis('off')  # Ocultar el eje
 plt.show()
-
-

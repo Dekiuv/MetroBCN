@@ -16,7 +16,18 @@ aristas = {
         ('Universitat', 'Passeig de gracia'),
         ('Passeig de gracia', 'Tetuan'),
         ('Tetuan', 'Monumental'),
-        ('Monumental', 'Sagrada familia')
+        ('Monumental', 'Sagrada familia'),
+        ('Sagrada familia', 'Encants'),
+        ('Encants', 'Clot'),
+        ('Clot', 'Bac de roda'),
+        ('Bac de roda', 'Sant marti'),
+        ('Sant marti', 'La pau'),
+        ('La pau', 'Verneda'),
+        ('Verneda', 'Artigues sant adria'),
+        ('Artigues sant adria', 'Sant roc'),
+        ('Sant roc', 'Gorg'),
+        ('Gorg', 'Pep ventura'),
+        ('Pep ventura', 'Badalona pompeu fabra'),
     ],
     # Linea 3
     'Linea 3': [
@@ -50,7 +61,18 @@ aristas = {
     'Linea 4': [
         ('Verdaguer', 'Girona'),
         ('Girona', 'Passeig de gracia'),
-        ('Passeig de gracia', 'Urquinaona')
+        ('Passeig de gracia', 'Urquinaona'),
+        ('Urquinaona', 'Jaume I'),
+        ('Jaume I', 'Barceloneta'),
+        ('Barceloneta', 'Ciutadella | vila olimpica'),
+        ('Ciutadella | vila olimpica', 'Bogatell'),
+        ('Bogatell', 'Llacuna'),
+        ('Llacuna', 'Poblenou'),
+        ('Poblenou', 'Selva de mar'),
+        ('Selva de mar', 'El maresme forum'),
+        ('El maresme forum', 'Besos mar'),
+        ('Besos mar', 'Besos'),
+        ('Besos', 'La pau'),
     ],
     # Linea 5
     'Linea 5': [

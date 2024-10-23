@@ -15,7 +15,18 @@ estaciones = {
         'Passeig de gracia': (0.003, 0.60),
         'Tetuan': (0.007, 0.60),
         'Monumental': (0.0085, 0.90),
-        'Sagrada familia': (0.01, 1.25)
+        'Sagrada familia': (0.01, 1.25),
+        'Encants': (0.013, 1.25),
+        'Clot': (0.015, 1.25),
+        'Bac de roda': (0.017, 1.25),
+        'Sant marti': (0.019, 1.25),
+        'La pau': (0.021, 1.25),
+        'Verneda': (0.023, 1.25),
+        'Artigues sant adria': (0.025, 1.25),
+        'Sant roc': (0.027, 0.7),
+        'Gorg': (0.029, 0.7),
+        'Pep ventura': (0.031, 0.7),
+        'Badalona pompeu fabra': (0.033, 0.7),
     },
     # Linea 3
     'Linea 3': {
@@ -45,13 +56,23 @@ estaciones = {
     },
     # Linea 4
     'Linea 4': {
-        'Girona': (0.005, 0.95)
+        'Girona': (0.005, 0.95),
+        'Jaume I': (0.003, -1.2),
+        'Barceloneta': (0.003, -1.7),
+        'Ciutadella | vila olimpica': (0.007, -1.7),
+        'Bogatell': (0.0085, -1.2),
+        'Llacuna': (0.011, -1.2),
+        'Poblenou': (0.014, -1.2),
+        'Selva de mar': (0.018, -1.2),
+        'El maresme forum': (0.021, -1.2),
+        'Besos mar': (0.021, -0.35),
+        'Besos': (0.021, 0.60),
     },
     # Linea 5
     'Linea 5': {
         'Entença': (-0.009, 1.25),
         'Hospital clinic': (-0.0045, 1.25),
-        'Verdaguer': (0.0065, 1.25)
+        'Verdaguer': (0.0065, 1.25),
     },
     # Linea 6
     'Linea 6': {
