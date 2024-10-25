@@ -3,6 +3,12 @@
 aristas = {
     # Linea 1
     'Linea 1': [
+        ('La sagrera', 'Navas'),
+        ('Navas', 'Clot'),
+        ('Clot', 'Glories'),
+        ('Glories', 'Marina'),
+        ('Marina', 'Arc de triomf'),
+        ('Arc de triomf', 'Urquinaona'),
         ('Urquinaona', 'Catalunya'),
         ('Catalunya', 'Universitat'),
         ('Universitat', 'Urgell'),
@@ -141,6 +147,11 @@ aristas = {
     ],
     # Linea 10
     'Linea 10': [
+        ('La sagrera', 'Onze de setembre'),
+        ('Onze de setembre', 'Bon pastor'),
+        ('Bon pastor', 'Llefia'),
+        ('Llefia', 'La salut'),
+        ('La salut', 'Gorg'),
         ('Collblanc', 'Torrassa'),
         ('Torrassa', 'Can tries gornal'),
         ('Can tries gornal', 'Provençana'),
@@ -155,6 +166,8 @@ aristas = {
     ],
     # Linea 9
     'Linea 9': [
+        ('La sagrera', 'Onze de setembre'),
+        ('Onze de setembre', 'Bon pastor'),
         ('Zona universitaria', 'Collblanc'),
         ('Collblanc', 'Torrassa'),
         ('Torrassa', 'Can tries gornal'),

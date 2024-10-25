@@ -3,6 +3,11 @@
 estaciones = {
     # Linea 1
     'Linea 1': {
+        'La sagrera': (0.017, 1.8),
+        'Navas': (0.0158, 1.5),
+        'Glories': (0.011, 0),
+        'Marina': (0.009, -0.60),
+        'Arc de triomf': (0.006, -0.60),
         'Urquinaona': (0.003, -0.60),
         'Universitat': (-0.003, 0.60),
         'Urgell': (-0.006, 0.60),
@@ -130,6 +135,8 @@ estaciones = {
     },
     # Linea 9
     'Linea 9': {
+        'Bon pastor': (0.023, 1.8),
+        'Onze de setembre': (0.021, 1.8),
         'Can tries gornal': (-0.023, 1.25),
         'Europa fira': (-0.023, 0.60),
         'Fira': (-0.023, 0),
@@ -145,6 +152,8 @@ estaciones = {
     },
     # Linea 10
     'Linea 10': {
+        'La salut': (0.029, 1.25),
+        'Llefia': (0.025, 1.8),
         'Provençana': (-0.021, 0.90),
         'Ciutat de la justicia': (-0.019, 0.60),
         'Foneria': (-0.019, 0.30),
