@@ -124,4 +124,3 @@ def get_aristas():
 
     # Retornar la lista de conexiones sin líneas
     return conexiones_sin_lineas
-#a
