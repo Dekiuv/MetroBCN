@@ -3,6 +3,13 @@
 estaciones = {
     # Linea 1
     'Linea 1': {
+        'Fondo': (0.029, 2.3),
+        'Santa coloma': (0.029, 2.7),
+        'Baro de viver': (0.027, 3.1),
+        'Trinitat vella': (0.025, 3.5),
+        'Torras i bages': (0.023, 3.1),
+        'Sant andreu': (0.021, 2.7),
+        'Fabra i puig': (0.017, 2.3),
         'La sagrera': (0.017, 1.8),
         'Navas': (0.0158, 1.5),
         'Glories': (0.011, 0),
@@ -135,6 +142,11 @@ estaciones = {
     },
     # Linea 9
     'Linea 9': {
+        'Can zam': (0.029, 3.5),
+        'Singuerlin': (0.031, 2.9),
+        'Esglesia major': (0.031, 2.3),
+        'Santa rosa': (0.0265, 2.3),
+        'Can peixauet': (0.025, 2.1),
         'Bon pastor': (0.023, 1.8),
         'Onze de setembre': (0.021, 1.8),
         'Can tries gornal': (-0.023, 1.25),

@@ -3,6 +3,13 @@
 aristas = {
     # Linea 1
     'Linea 1': [
+        ('Fondo', 'Santa coloma'),
+        ('Santa coloma', 'Baro de viver'),
+        ('Baro de viver', 'Trinitat vella'),
+        ('Trinitat vella', 'Torras i bages'),
+        ('Torras i bages', 'Sant andreu'),
+        ('Sant andreu', 'Fabra i puig'),
+        ('Fabra i puig', 'La sagrera'),
         ('La sagrera', 'Navas'),
         ('Navas', 'Clot'),
         ('Clot', 'Glories'),
@@ -168,6 +175,12 @@ aristas = {
     'Linea 9': [
         ('La sagrera', 'Onze de setembre'),
         ('Onze de setembre', 'Bon pastor'),
+        ('Bon pastor', 'Can peixauet'),
+        ('Can peixauet', 'Santa rosa'),
+        ('Santa rosa', 'Fondo'),
+        ('Fondo', 'Esglesia major'),
+        ('Esglesia major', 'Singuerlin'),
+        ('Singuerlin', 'Can zam'),
         ('Zona universitaria', 'Collblanc'),
         ('Collblanc', 'Torrassa'),
         ('Torrassa', 'Can tries gornal'),
